@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+<style type="text/css">
+    #popup {
+        position: relative;
+        width: 400px;
+        margin: 0 auto;
+        height: 300px;
+        background: #0088ff;
+        overflow: ;
+    }
+    .ifr, iframe {
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+    #p {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        display: none;
+    }
+    #n {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    /*#a, #b, #c, #d, #e {
+        display: none;
+    }
+    #d {
+        display: block;
+    }*/
+    #a {
+        background: #aaa;
+    }
+    #b {
+        background: #bbb;
+    }
+    #c {
+        background: #ccc;
+    }
+    #d {
+        background: #ddd;
+    }
+    #e {
+        background: #eee;
+    }
+</style>
+<script src="http://yui.yahooapis.com/3.8.1/build/yui/yui-min.js"></script>
+<script src="popup.js"></script>
+</head>
+<body>
+    <div id="popup">
+        <button id="p" onClick="prev()">prev</button>
+        <button id="n" onClick="next()">next</button>
+        <iframe src="a.html"></iframe>
+    </div>
+</body>
+</html>
